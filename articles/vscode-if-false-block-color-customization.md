@@ -3,7 +3,7 @@ title: "VSCode C#の#if falseで囲んだ行の色を変更する方法"
 emoji: "🔥"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["vscode", "csharp"]
-published: false
+published: true
 ---
 
 C#は、プリプロセッサディレクティブ ( `#if false` など) で条件付きコンパイルを実現できる。
