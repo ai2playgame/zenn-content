@@ -75,12 +75,12 @@ public class CameraAspectController : MonoBehaviour
 
     [SerializeField] private FOVMode fovMode;
 
-    public void Awake()
+    private void Awake()
     {
         cam = GetComponent<Camera>();
     }
 
-    public void Update()
+    private void FixedUpdate()
     {
         float currentAspectRatio = cam.aspect;
         float verticalFov = 0;
