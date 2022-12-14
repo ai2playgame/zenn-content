@@ -1,7 +1,7 @@
 {
   "name": "zenn-workspace",
   "version": "1.0.0",
-  "description": "",
+  "description": "* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "^0.1.108"
-  }
+    "zenn-cli": "^0.1.134"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai2playgame/zenn-content.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ai2playgame/zenn-content/issues"
+  },
+  "homepage": "https://github.com/ai2playgame/zenn-content#readme"
 }
